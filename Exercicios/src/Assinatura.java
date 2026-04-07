@@ -1,6 +1,7 @@
 public class Assinatura {
     private String plano;
     private double valorBase;
+    private boolean cliente = true;
 
     public Assinatura(double valorBase, String plano) {
         this.valorBase = valorBase;
